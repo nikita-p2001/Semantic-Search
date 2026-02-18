@@ -1,0 +1,19 @@
+# Sensitive data
+data/
+artifacts/
+
+# Python virtual environment
+venv/
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# ML / Vector DB files
+*.pkl
+*.index
+*.meta
+
+# IDE
+.vscode/
