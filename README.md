@@ -13,3 +13,5 @@ Production-grade semantic search system using:
 - Hybrid retrieval
 - Cross-encoder reranking
 - Evaluation framework
+
+Add data/ and artifact/ folders in root and upload you document in data/ folder
