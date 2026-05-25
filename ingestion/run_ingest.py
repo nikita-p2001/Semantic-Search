@@ -1,4 +1,4 @@
-# ingestion/run_ingest.py
+
 from ingestion.loader import load_txt_files
 from ingestion.normalizer import normalize_text
 from ingestion.chunker import SmartChunker
@@ -43,7 +43,7 @@ def main():
     print(f"text_length: {len(sample_chunk.text)} chars")
     print(f"metadata: {sample_chunk.metadata}")
 
-    # ✅ SAVE CHUNKS (INSIDE main)
+    # SAVE CHUNKS (INSIDE main)
     os.makedirs("artifacts", exist_ok=True)
     with open("artifacts/chunks.pkl", "wb") as f:
         pickle.dump(all_chunks, f)
